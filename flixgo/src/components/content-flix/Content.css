@@ -1,0 +1,27 @@
+.title{
+    color: white;
+}
+.img-content{
+    width: 100%;
+}
+.content-flixgo{
+    color: white;
+    
+}
+.post-map span{
+    color: #A54652;
+}
+.post-map{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.flix-go-content{
+    border-bottom: 2px solid #FF5689;
+    padding: 0;
+
+}
+.title-container{
+    margin-top: 10%;
+    padding: 0;
+}

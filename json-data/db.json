@@ -1,0 +1,132 @@
+{
+  "posts": [
+    {
+      "id": 0,
+      "image": "http://flixgo.volkovdesign.com/main/img/covers/cover.jpg",
+      "title": "I Dream in Anoth...",
+      "author": "Action, Triler",
+      "point": 8.4
+    },
+    {
+      "id": 1,
+      "image": "http://flixgo.volkovdesign.com/main/img/covers/cover2.jpg",
+      "title": "Benched",
+      "author": "Comedy",
+      "point": 7.1
+    },
+    {
+      "id": 2,
+      "image": "http://flixgo.volkovdesign.com/main/img/covers/cover3.jpg",
+      "title": "Whitney",
+      "author": "Romance Drama",
+      "point": 6.3
+    },
+    {
+      "id": 3,
+      "image": "http://flixgo.volkovdesign.com/main/img/covers/cover4.jpg",
+      "title": "Blindspotting",
+      "author": "Comedy Drama",
+      "point": 7.9
+    },
+    {
+      "id": 4,
+      "image": "http://flixgo.volkovdesign.com/main/img/covers/cover6.jpg",
+      "title": "I Dream in Anoth ...",
+      "author": "Comedy",
+      "point": 7.1
+    },
+    {
+      "id": 5,
+      "image": "http://flixgo.volkovdesign.com/main/img/covers/cover5.jpg",
+      "title": "Benched",
+      "author": "Comedy",
+      "point": 7.1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "items": [
+    {
+      "id": 0,
+      "image": "http://flixgo.volkovdesign.com/main/img/covers/cover.jpg",
+      "title": "I Dream in Another Language",
+      "action": "Action Triler",
+      "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to",
+      "point": 8.4
+    },
+    {
+      "id": 1,
+      "image": "http://flixgo.volkovdesign.com/main/img/covers/cover2.jpg",
+      "title": " Benched",
+      "action": "Action Triler",
+      "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to",
+      "point": 8.4
+    },
+    {
+      "id": 2,
+      "image": "http://flixgo.volkovdesign.com/main/img/covers/cover3.jpg",
+      "title": "Whitney",
+      "action": "Action Triler",
+      "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to",
+      "point": 8.4
+    },
+    {
+      "id": 3,
+      "image": "http://flixgo.volkovdesign.com/main/img/covers/cover4.jpg",
+      "title": "Blindspotting",
+      "action": "Action Triler",
+      "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to",
+      "point": 8.4
+    },
+    {
+      "id": 4,
+      "image": "http://flixgo.volkovdesign.com/main/img/covers/cover5.jpg",
+      "title": "I Dream in Another Language",
+      "action": "Action Triler",
+      "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to",
+      "point": 8.4
+    },
+    {
+      "id": 5,
+      "image": "http://flixgo.volkovdesign.com/main/img/covers/cover6.jpg",
+      "title": "Benched",
+      "action": "Action Triler",
+      "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to",
+      "point": 8.4
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "user": [
+    {
+      "id": 1,
+      "name": "thống",
+      "email": "thong123@gmail.com",
+      "password": "qưeqweqweqwe"
+    },
+    {
+      "name": "thognngu",
+      "email": "thongxuan327@gmail.com",
+      "password": "1232323123",
+      "id": 2
+    },
+    {
+      "name": "khoa",
+      "email": "dsadasd@gmail.com",
+      "password": "123123",
+      "id": 3
+    },
+    {
+      "name": "thống",
+      "email": "thong1403pt@gmail.com",
+      "password": "123123",
+      "id": 4
+    }
+  ]
+}
