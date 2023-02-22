@@ -3,9 +3,7 @@
     color: white;
     margin-top: 2%;
 }
-.img-item{
-    margin-right: 2%;
-}
+
 .action-item{
     color: #904057;
 }
@@ -42,4 +40,14 @@
 }
 .new-item-content{
     padding: 0;
+}
+.title-content-cart{
+    margin-left: 2%;
+}
+.img-item:hover{
+    box-shadow: 0 0 5px 2px #ccc;
+}
+.img-cart:hover{
+    box-shadow: 0 0 5px 2px #ccc;
+
 }

@@ -7,20 +7,31 @@ import axios from "axios";
 import { useState } from "react";
 const Login = () => {
   const [user, setUser] = useState([]);
+
   useEffect(() => {
     axios
       .get("http://localhost:3000/user")
-      .then((data) => setUser(data.data))
+      .then((data) => {
+        setUser(data.data);
+      })
       .catch((err) => console.log(err));
   }, []);
+
   const onFinish = (values) => {
     console.log("Received values of form: ", values);
-    console.log(user);
+    // console.log(user);
     let userFinder = user.find((e) => {
       return values.email === e.email && values.password === e.password;
     });
     if (userFinder) {
-      window.location.href = "http://localhost:3001/";
+      // window.location.href = "http://localhost:3001/";
+      localStorage.setItem("user", values.email);
+      console.log(localStorage.getItem("user"));
+      if (!localStorage.getItem("user")) {
+        window.location.href = "http://localhost:3001/login";
+      } else {
+        window.location.href = "http://localhost:3001/";
+      }
     } else {
       alert("Sai email hoặc mật khẩu");
     }

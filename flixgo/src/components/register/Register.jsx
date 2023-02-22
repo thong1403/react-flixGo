@@ -14,10 +14,13 @@ const Register = () => {
         email: values.email,
         password: values.password,
       })
+      
       .then((data) => setNew(data.data))
       .catch((err) => console.log(err));
       
   };
+
+  console.log(newuser);
   return (
     <Form
       name="normal_login"

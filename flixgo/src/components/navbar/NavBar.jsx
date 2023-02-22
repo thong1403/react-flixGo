@@ -1,9 +1,11 @@
 import { useState } from "react";
 import "./Nav.css";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function NavBar() {
-  
+  const handleClick = () => {
+    localStorage.removeItem("user");
+  };
 
   return (
     <div className="navbar-name">
@@ -83,7 +85,9 @@ function NavBar() {
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>
           <div className="col-2">
-            <button className="btn-navbar" ><Link to="/login">LOG OUT</Link></button>
+            <button className="btn-navbar" onClick={handleClick}>
+              <Link to="/login">LOG OUT</Link>
+            </button>
           </div>
         </div>
       </div>

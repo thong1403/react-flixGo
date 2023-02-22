@@ -1,6 +1,7 @@
 import "./Content.css";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 function Content() {
   const [post, setPost] = useState([]);
@@ -11,7 +12,6 @@ function Content() {
       .catch((err) => console.log(err));
   }, []);
   console.log(post);
-
 
   return (
     <div className="flix-go-content">
@@ -25,12 +25,18 @@ function Content() {
         </div>
         <div className="row">
           {post.map((e) => {
-            return <div className="col-3 post-map">
-                <img src={e.image} alt="" className="img-content"/>
+            return (
+              <div className="col-3 post-map">
+                <Link to="/detail">
+                  <img src={e.image} alt="" className="img-content" />
+                </Link>
                 <h4>{e.title}</h4>
                 <span>{e.author}</span>
-                <p><b>{e.point}</b> </p>
-            </div>;
+                <p>
+                  <b>{e.point}</b>{" "}
+                </p>
+              </div>
+            );
           })}
         </div>
       </div>
