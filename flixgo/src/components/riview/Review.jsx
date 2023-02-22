@@ -16,7 +16,7 @@ function Review() {
         content: e.target.content.value,
         review: e.target.comment.value
     })
-    .then((data) => setReview(data.data))
+    .then((data) => setUsers([...usercomment, data.data]))
     .catch((err) => console.log(err))
 
   };

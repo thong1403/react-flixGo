@@ -2,10 +2,10 @@ import { LockOutlined, MailOutlined, UserOutlined } from "@ant-design/icons";
 import { Button, Checkbox, Form, Input } from "antd";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import { useState } from 'react';
+import { useState } from "react";
 
 const Register = () => {
-    const [newuser, setNew] = useState([])
+  const [newuser, setNew] = useState([]);
   const onFinish = (values) => {
     console.log("Received values of form: ", values);
     axios
@@ -14,10 +14,14 @@ const Register = () => {
         email: values.email,
         password: values.password,
       })
-      
+
       .then((data) => setNew(data.data))
       .catch((err) => console.log(err));
-      
+    if (newuser.length > 0) {
+      window.location.href = "http://localhost:3001/login"
+    }else{
+      alert("không thành công")
+    }
   };
 
   console.log(newuser);

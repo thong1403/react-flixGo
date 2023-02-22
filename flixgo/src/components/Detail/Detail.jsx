@@ -8,20 +8,38 @@ function Detail() {
   const [usercomment, setUsers] = useState([]);
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(e.target.comment.value);
+    // console.log(e.target.comment.value);
+    axios
+      .post("http://localhost:3000/comment", {
+        name: "Lê Xuân Thống",
+        comment: e.target.comment.value,
+      })
+      .then((data) => {
+        // console.log(data.data);
+        // console.log(usercomment);
+        setUsers([...usercomment, data.data]);
+        // setPost(data.data);
+        // set lại vào trong state
+      })
+      .catch((err) => console.log(err));
   };
+
   useEffect(() => {
     axios
       .get("http://localhost:3000/items")
       .then((data) => setComment(data.data))
       .catch((err) => console.log(err));
   }, []);
+
+  //////////////////////////////////
+
   useEffect(() => {
     axios
-      .get("http://localhost:3000/user")
+      .get("http://localhost:3000/comment")
       .then((data) => setUsers(data.data))
       .catch((err) => console.log(err));
   }, []);
+
   return (
     <>
       <div>
