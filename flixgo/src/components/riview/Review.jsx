@@ -2,6 +2,7 @@ import NavBar from "../navbar/NavBar";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import "./Review.css"
+import { Link } from "react-router-dom";
 
 
 function Review() {
@@ -72,7 +73,7 @@ function Review() {
           <div className="comment">
             <div className="row title-comment-top">
               <h1>DISCOVER</h1>
-              <div className="col-2">COMMENT</div>
+              <div className="col-2"><Link to="/detail">COMMENT</Link> </div>
               <div className="col-2">RIVIEWS</div>
             </div>
             <div className="row">

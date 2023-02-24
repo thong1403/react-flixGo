@@ -20,7 +20,7 @@ function ContentAdmin() {
     <>
       <div className="container">
         <div className="row">
-          <div className="col-3">
+          <div className="col-3 title-admin">
             <p>Unique views this month</p>
             <h1>5 678</h1>
           </div>

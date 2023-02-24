@@ -2,6 +2,7 @@ import NavBar from "../navbar/NavBar";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import "./Detail.css";
+import { Link } from "react-router-dom";
 
 function Detail() {
   const [comment, setComment] = useState([]);
@@ -79,7 +80,7 @@ function Detail() {
             <div className="row title-comment-top">
               <h1>DISCOVER</h1>
               <div className="col-2">COMMENT</div>
-              <div className="col-2">RIVIEWS</div>
+              <div className="col-2"><Link to="/review">RIVIEWS</Link> </div>
             </div>
             <div className="row">
               <div className="col-8">

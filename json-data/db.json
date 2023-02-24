@@ -130,6 +130,16 @@
       "content": "Best Marvel movie in my opinion",
       "point": 6.3,
       "review": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+    },
+    {
+      "content": "anh bach",
+      "review": "dsdfsdhfsgđh",
+      "id": 3
+    },
+    {
+      "content": "alooooo",
+      "review": "hellllo",
+      "id": 4
     }
   ],
   "user": [
@@ -173,6 +183,16 @@
       "id": 2,
       "name": "Lê Xuân Thống",
       "comment": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+    },
+    {
+      "name": "Lê Xuân Thống",
+      "comment": "yetrweg",
+      "id": 3
+    },
+    {
+      "name": "Lê Xuân Thống",
+      "comment": "có ai không",
+      "id": 4
     }
   ]
 }
