@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-flixGo/static/css/main.525b1fea.css",
+    "main.js": "/react-flixGo/static/js/main.ee1a4942.js",
+    "index.html": "/react-flixGo/index.html",
+    "main.525b1fea.css.map": "/react-flixGo/static/css/main.525b1fea.css.map",
+    "main.ee1a4942.js.map": "/react-flixGo/static/js/main.ee1a4942.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.525b1fea.css",
+    "static/js/main.ee1a4942.js"
+  ]
+}
